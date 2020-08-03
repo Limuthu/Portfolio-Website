@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+
+    &__links {
+        height: 100%;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        li a {
+            font-family: 'The Historia Demo';
+            font-size: 1.575rem;
+            color: #fff;
+
+            &:hover {
+                background: linear-gradient(to right, #FF589B, #FFA463);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
+
+@media (max-width: 581px) {
+    
+}

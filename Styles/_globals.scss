@@ -1,0 +1,30 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;    
+    line-height: 1.3;
+    color: #fff;
+    width: 100%;
+}
+
+.website {
+    background-image: url(/images/sitebg.jpg);
+}
+
+img,
+svg {
+    width: 100%;
+}
