@@ -1,18 +1,17 @@
 .header {
+    height: 10vh;
     width: 100%;
 
     &__links {
         height: 100%;
         width: 100%;
-        padding-top: 15px;
-        padding-bottom: 15px;
         display: flex;
         align-items: center;
         justify-content: space-around;
 
         li a {
             font-family: 'The Historia Demo';
-            font-size: 1.575rem;
+            font-size: 1.9375rem;
             color: #fff;
 
             &:hover {
@@ -25,6 +24,45 @@
     }
 }
 
-@media (max-width: 581px) {
+@media (max-width: 660px) {
+
+    .header {
+        position: relative;
+        width: 100%;
+    
+        &__links {
+           display: none;
+        }
+
+        &__burger {
+            position: absolute;
+            right: 20px;
+            top: 0;
+            height: 100%;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .line {
+                height: 4px;
+                width: 20px;
+                border-radius: 10px;
+                background: linear-gradient(to right, #FF589B, #FFA463);
+            }
+
+            .line2 {
+                width: 42px;
+                margin-top: 8px;
+            }
+
+            .line3 {
+                margin-top: 8px;
+                margin-left: 23px;
+            }
+        }
+
+    }
     
 }
+
