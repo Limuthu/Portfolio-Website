@@ -1,0 +1,28 @@
+
+.home {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        width: fit-content;
+        font-size: 9.375rem;
+        font-family: 'The Historia Demo';
+    }
+
+    h2 {
+        width: fit-content;
+        opacity: 75%;
+    }
+}
+
+@media (max-width: 660px) {
+    
+    html {
+        font-size: 50%;
+    }
+    
+}

@@ -35,7 +35,6 @@ svg {
   background: -webkit-gradient(linear, left top, right top, from(#FF589B), to(#FFA463));
   background: linear-gradient(to right, #FF589B, #FFA463);
   background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -110,6 +109,45 @@ svg {
   .header__burger .line3 {
     margin-top: 8px;
     margin-left: 23px;
+  }
+}
+
+.home {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.home h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 9.375rem;
+  font-family: 'The Historia Demo';
+}
+
+.home h2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  opacity: 75%;
+}
+
+@media (max-width: 660px) {
+  html {
+    font-size: 50%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
