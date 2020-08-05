@@ -1,5 +1,5 @@
 .about {
-    height: 100vh;
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,12 +48,13 @@
         }
 
         .greet {
+            padding-top: 5px;
             text-align: center;
             opacity: 60%;  
         }
 
         .social {
-            padding-top: 10px;
+            padding-top: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -156,16 +157,14 @@
                 .twitter {
                     font-size: 3.125rem;
                     letter-spacing: 15px;
-    
                 }
     
                 .github {
                     font-size: 3.125rem;
                     letter-spacing: 15px;
-    
-    
                 }
             }
         }
     }
 }
+

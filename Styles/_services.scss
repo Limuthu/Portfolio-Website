@@ -1,0 +1,173 @@
+.services {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__main {
+        text-align: center;
+
+        h2 {
+            font-size: 1.875rem;
+            opacity: 70%;
+        }
+
+        h3 {
+            font-size: 1.5625rem;
+            opacity: 90%;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+
+        .card {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            .sign {
+                height: 100px;
+                width: 100px;
+                position: relative;
+    
+                .rec {
+                    position: absolute;
+                    height: 100px;
+                    width: 100px;
+                    border: 2px solid #fcbc44;
+                    background-color: #df3e96;
+                    z-index: 1;
+                    transform: rotate(45deg);
+                }
+    
+                .icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 2;
+                    font-size: 50px;
+                    color: #fcbc44;
+                }
+
+            }
+    
+            h2 {
+                padding-top: 1.25rem;
+                font-size: 20px;
+                opacity: 90%;
+            }
+    
+            h3 {
+                opacity: 70%;
+                text-align: center;
+                font-size: 1.125rem;
+                width: 90%;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    .services {
+        height: 1070.4px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        &__main {
+            text-align: center;
+    
+            h2 {
+                font-size: 1.875rem;
+                opacity: 70%;
+            }
+    
+            h3 {
+                font-size: 1.5625rem;
+                opacity: 90%;
+            }
+        }
+    
+        &__cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+    
+            .card {
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+    
+                .sign {
+                    height: 80px;
+                    width: 80px;
+                    position: relative;
+        
+                    .rec {
+                        position: absolute;
+                        height: 80px;
+                        width: 80px;
+                        border: 2px solid #fcbc44;
+                        background-color: #df3e96;
+                        z-index: 1;
+                        transform: rotate(45deg);
+                    }
+        
+                    .icon {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        z-index: 2;
+                        font-size: 40px;
+                        color: #fcbc44;
+                    }
+                }
+        
+                h2 {
+                    font-size: 16px;
+                    opacity: 90%;
+                }
+        
+                h3 {
+                    opacity: 70%;
+                    text-align: center;
+                    font-size: 14;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .card2 {
+        padding-top: 20px;
+    }
+
+    .card3 {
+        padding-top: 20px;
+    }
+    
+}
+
+
+
+
+
+

@@ -229,12 +229,13 @@ svg {
 }
 
 .about__content .greet {
+  padding-top: 5px;
   text-align: center;
   opacity: 60%;
 }
 
 .about__content .social {
-  padding-top: 10px;
+  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,6 +362,211 @@ svg {
   .about__content .social .github {
     font-size: 3.125rem;
     letter-spacing: 15px;
+  }
+}
+
+.services {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.services__main {
+  text-align: center;
+}
+
+.services__main h2 {
+  font-size: 1.875rem;
+  opacity: 70%;
+}
+
+.services__main h3 {
+  font-size: 1.5625rem;
+  opacity: 90%;
+}
+
+.services__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+.services__cards .card {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.services__cards .card .sign {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.services__cards .card .sign .rec {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #fcbc44;
+  background-color: #df3e96;
+  z-index: 1;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.services__cards .card .sign .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 50px;
+  color: #fcbc44;
+}
+
+.services__cards .card h2 {
+  padding-top: 1.25rem;
+  font-size: 20px;
+  opacity: 90%;
+}
+
+.services__cards .card h3 {
+  opacity: 70%;
+  text-align: center;
+  font-size: 1.125rem;
+  width: 90%;
+}
+
+@media (max-width: 1000px) {
+  .services {
+    height: 1070.4px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .services__main {
+    text-align: center;
+  }
+  .services__main h2 {
+    font-size: 1.875rem;
+    opacity: 70%;
+  }
+  .services__main h3 {
+    font-size: 1.5625rem;
+    opacity: 90%;
+  }
+  .services__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+  }
+  .services__cards .card {
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .services__cards .card .sign {
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+  .services__cards .card .sign .rec {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #fcbc44;
+    background-color: #df3e96;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .services__cards .card .sign .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 40px;
+    color: #fcbc44;
+  }
+  .services__cards .card h2 {
+    font-size: 16px;
+    opacity: 90%;
+  }
+  .services__cards .card h3 {
+    opacity: 70%;
+    text-align: center;
+    font-size: 14;
+    width: 100%;
+  }
+  .card2 {
+    padding-top: 20px;
+  }
+  .card3 {
+    padding-top: 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
