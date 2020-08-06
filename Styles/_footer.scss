@@ -1,0 +1,13 @@
+.footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1836;
+    letter-spacing: 5px;
+
+    a {
+        color: rgb(168, 90, 90);
+        font-weight: bold;
+    }
+}

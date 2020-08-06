@@ -16,6 +16,7 @@
         }
     }
 
+
     &__content {
         padding-top: 100px;
         display: flex;
@@ -31,6 +32,8 @@
 
             img {
                 border-radius: 20px;
+                height:269.871px;
+                width: 493.367px;
             }
 
             .content {
@@ -52,7 +55,7 @@
                 }
 
                 h4 {
-                    padding-top: 30px;
+                    padding-top: 10px;
                     width: fit-content;
                     font-weight: bold;
                     color: #5689e0;
@@ -66,19 +69,23 @@
 .card10,
 .card30 {
     .content {
-        padding-left: 20px;
+        padding-left: 50px;
     }
 }
 
 .card20,
 .card30 {
-    padding-top: 50px;
+    margin-top: 80px;
 }
 
 .card20 {
     
     img {
         order: 1;
+    }
+
+    .content {
+        padding-right: 10px;
     }
 }
 
