@@ -1,0 +1,177 @@
+.portfolio {
+    width: 100%;
+    padding-top: 100px;
+
+    &__main {
+        text-align: center;
+
+        h2 {
+            font-size: 1.875rem;
+            opacity: 70%;
+        }
+
+        h3 {
+            font-size: 1.5625rem;
+            opacity: 90%;
+        }
+    }
+
+    &__content {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        .card {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+
+            img {
+                border-radius: 20px;
+            }
+
+            .content {
+
+                h3 {
+                    opacity: 70%;
+                    font-size: 16px;
+                    width: fit-content;
+                    padding-bottom: 10px;
+                }
+
+                h2 {
+                    width: fit-content;
+                    padding-bottom: 10px;
+                }
+
+                p {
+                    width: fit-content;
+                }
+
+                h4 {
+                    padding-top: 30px;
+                    width: fit-content;
+                    font-weight: bold;
+                    color: #5689e0;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}
+
+.card10,
+.card30 {
+    .content {
+        padding-left: 20px;
+    }
+}
+
+.card20,
+.card30 {
+    padding-top: 50px;
+}
+
+.card20 {
+    
+    img {
+        order: 1;
+    }
+}
+
+@media(max-width: 880px) {
+
+    .portfolio {
+        width: 100%;
+        padding-top: 100px;
+    
+        &__main {
+            text-align: center;
+    
+            h2 {
+                font-size: 1.875rem;
+                opacity: 70%;
+            }
+    
+            h3 {
+                font-size: 1.5625rem;
+                opacity: 90%;
+            }
+        }
+    
+        &__content {
+            padding-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+    
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                width: 90%;
+    
+                img {
+                    border-radius: 0;
+                }
+    
+                .content {
+                    padding-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    h3 {
+                        opacity: 70%;
+                        font-size: 16px;
+                        width: fit-content;
+                        padding-bottom: 10px;
+                        font-size: 14px;
+                    }
+    
+                    h2 {
+                        width: fit-content;
+                        padding-bottom: 10px;
+                    }
+    
+                    p {
+                        width: fit-content;
+                        font-size: 15px;
+                        padding-bottom: 10px;
+                    }
+    
+                    h4 {
+                        width: fit-content;
+                        font-weight: bold;
+                        color: #5689e0;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+    
+    .card10,
+    .card30 {
+        .content {
+            padding-left: 0;
+        }
+    }
+    
+    .card20,
+    .card30 {
+        padding-top: 40px;
+    }
+    
+    .card20 {
+        
+        img {
+            order: 0;
+        }
+    }
+}
